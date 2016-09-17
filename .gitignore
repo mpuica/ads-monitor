@@ -1,0 +1,4 @@
+node_modules
+_ignore
+.idea
+npm-debug.log

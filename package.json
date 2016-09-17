@@ -1,0 +1,26 @@
+{
+  "name": "ads-monitor",
+  "version": "1.0.0",
+  "description": "Updates monitor for ads websites",
+  "main": "index.js",
+  "dependencies": {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mpuica/mp-ads-monitor.git"
+  },
+  "keywords": [
+    "ads",
+    "monitor"
+  ],
+  "author": "Mihail Puica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpuica/mp-ads-monitor"
+  }
+}
