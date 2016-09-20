@@ -63,14 +63,20 @@ Scanner.prototype.execute = function () {
                 self.config.params,
                 function(err, ads) {
                     ads.forEach(function(ad) {
-                        if(self.history.indexOf(ads.link) == -1 ) {
-                        //we have newer ads in list, so take action and flag to save the new history
+                        if(self.history.indexOf(ad.link) == -1 ) {
+                            //we have newer ads in list, so take action and flag to save the new history
                             self.history.push(ad.link);
-                            var  log_entry = '[' + ad.pubDate + '] <a href ="' + ad.link + ' taget="_blank">' +
-                                ad.title + ' </a> ' ;
+                            var  log_entry = '[' + ad.pubDate + '] ' +
+                                ad.title + ' (' + ad.innerAd.info.Prix + ') ' +
+                                ad.link ;
                             self.log.push(log_entry);
                             self.items ++;
+                            console.log('==========================================================');
+                            console.log(self.history);
+                            console.log('----------------------------------------------------------');
                             console.log(ad);
+
+                            console.log('new ad ' + self.history.length + ' : ' + self.log.length);
                         }
 
                     });

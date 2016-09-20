@@ -22,7 +22,6 @@
                     // get current server status
                     $http.get('/api/scanner/status')
                         .success(function(data) {
-                            $scope.logs = [];
                             $scope.scanner = data;
                             $scope.logs = $scope.scanner.log;
                         })
