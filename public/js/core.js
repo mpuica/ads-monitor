@@ -31,7 +31,7 @@
                             $scope.server_run = false;
                         });
                     $scope.serverStatus();
-                }, 5000);
+                }, 30000);//each 30 seconds poll
             }
         };
 

@@ -7,7 +7,7 @@ var scraper = require('kijiji-scraper');
 // Constructor
 function Scanner(config) {
     this.config = {
-        interval : 10000,
+        interval : 300000,//interval at each 5 minutes
         prefs: {
             locationId : '1700281',
             categoryId : '30'
