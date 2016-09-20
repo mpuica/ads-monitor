@@ -5,13 +5,10 @@ A node.js app to monitor the preferred ads websites for updates on selected crit
 * Scan the selected ads websites for new ads on defined criteria
 
 ### Dependencies
-* [node.js](http://github.com/joyent/node)
-* [express](https://github.com/expressjs/express) 
-* [request](http://github.com/request/request)
-* [cheerio](http://www.github.com/cheeriojs/cheerio)
+[TBD]
 
 ### Installation
-`npm install ads-monitor`
+`npm install`
 
 ### Documentation
 [TBD]
