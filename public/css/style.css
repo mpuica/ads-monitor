@@ -1,0 +1,28 @@
+html {
+    overflow-y:scroll;
+}
+body {
+    padding-top:50px;
+}
+.tasks-list {
+    margin-bottom:30px;
+}
+
+.log-console {
+    height: 400px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+
+.log-item {
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #666666;
+}
+
+
+.footer{
+    margin-top: 30px;
+}

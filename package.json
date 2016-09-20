@@ -2,11 +2,15 @@
   "name": "ads-monitor",
   "version": "1.0.0",
   "description": "Updates monitor for ads websites",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest"
+    "express"         : "latest",
+    "request"         : "latest",
+    "cheerio"         : "latest",
+    "body-parser"     : "latest",
+    "method-override" : "latest",
+    "morgan"          : "latest",
+    "kijiji-scraper"  : "latest"
   },
   "devDependencies": {},
   "scripts": {},
