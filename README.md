@@ -13,7 +13,7 @@ A node.js app to monitor the preferred ads websites for updates on selected crit
 * I need a dynamic method to populate the criteria fields directly from the source 
 (scrape the source for drop-down options also)
 * No email for the moment
-* TRY TO USE WEBSOCKETS INSTEAD OF LOOP POOLING
+* TRY TO USE WEBSOCKETS INSTEAD OF LOOP POLLING
 
 ### Dependencies
 express
