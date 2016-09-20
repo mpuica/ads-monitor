@@ -48,6 +48,7 @@
                     clearTimeout($scope.server_run);
                     $scope.server_run = false;
                 });
+            alert('It will take about 10-20 seconds to show the first iteration results...');
         };
 
         // delete a task on check

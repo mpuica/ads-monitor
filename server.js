@@ -54,7 +54,7 @@ app.post('/api/scanner/start', function(req, res) {
     console.log(req.body);
 
     config = {
-        interval : 10000,
+        interval : 600000,
         prefs: {
             locationId : req.body.location,
             categoryId : req.body.category
